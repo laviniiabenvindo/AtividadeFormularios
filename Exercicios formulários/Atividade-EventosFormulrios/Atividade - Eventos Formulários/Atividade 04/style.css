@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #FFF;
+    background: #D61355;
+    font-family: 'Inter', sans-serif;
+}
+main section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+main section .content{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background: #FCE22A;
+    color: #000;
+}
+main section .content input{
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 15px;
+}
+main section .content button{
+    margin-top: 30px;
+    padding: 10px;
+    width: 300px;
+    background-color: #FFF;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+main section .caixa{
+    display: flex;
+}
+main section .caixa .retorno{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background: #30E3DF;
+    color: #000;
+}
